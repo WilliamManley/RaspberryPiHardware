@@ -1,5 +1,6 @@
 import RPi.GPIO as GPIO
 import time
+# Code for detecting button press for microswitch
 GPIO.setwarnings(False) # Ignore warning for now
 GPIO.setmode(GPIO.BCM)
 GPIO.setup(5, GPIO.IN, pull_up_down=GPIO.PUD_UP)
